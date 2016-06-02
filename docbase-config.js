@@ -1,17 +1,17 @@
 var docbaseConfig = {
-  "method": "github",
+  "method": "file",
   "generic": {
     "baseurl": "",
-    "path": ""
+    "path": "md"
   },
   "file": {
-    "path": ""
+    "path": "md"
   },
   "github": {
-    "user": "tudorsaitoc",
-    "repo": "demo",
-    "path": "md",
-    "branch": "master",
+    "user": "",
+    "repo": "",
+    "path": "",
+    "branch": "",
     "access_token": "ZmIyMTg3ZDRlN2Y0YjEwMGVkN2M5OWZjYWM3NTJmZGZjNTU4ZDExZA=="
   },
   "indexHtml": "./html/main.html",
