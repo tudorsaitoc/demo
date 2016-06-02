@@ -1,18 +1,18 @@
 var docbaseConfig = {
-  "method": "github",
+  "method": "file",
   "generic": {
     "baseurl": "",
-    "path": ""
+    "path": "boilerplate_docs"
   },
   "file": {
-    "path": ""
+    "path": "boilerplate_docs"
   },
   "github": {
-    "user": "tudorsaitoc",
-    "repo": "demo",
-    "path": "md",
-    "branch": "master",
-    "access_token": "ZmIyMTg3ZDRlN2Y0YjEwMGVkN2M5OWZjYWM3NTJmZGZjNTU4ZDExZA=="
+    "user": "",
+    "repo": "",
+    "path": "",
+    "branch": "",
+    "access_token": ""
   },
   "indexHtml": "./html/main.html",
   "flatdocHtml": "./bower_components/docbase/html/flatdoc.html",
@@ -84,5 +84,5 @@ var docbaseConfig = {
     }
   ]
 },
-  "publish": "github"
+  "publish": "local"
 }
